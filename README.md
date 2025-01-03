@@ -2,6 +2,10 @@
 
 This project was originally developed in November 2021 as a school project at *The Prince Royal's College, Chiang Mai, Thailand*. The system combines RFID authentication with temperature monitoring to create an automated attendance and health screening solution.
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/npwitk/Arduino-Temperature-RFID-Monitoring-System/refs/heads/main/Images/device-graphic.png" width="100" alt="Device Graphic"/>
+</div>
+
 > [!IMPORTANT]
 > - This code base is from 2021 and may require updates for current library versions
 > - LINE Notify service used in this project is being discontinued

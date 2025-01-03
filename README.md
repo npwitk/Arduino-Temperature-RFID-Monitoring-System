@@ -2,11 +2,11 @@
 
 This project was originally developed in November 2021 as a school project at *The Prince Royal's College, Chiang Mai, Thailand*. The system combines RFID authentication with temperature monitoring to create an automated attendance and health screening solution.
 
-## ⚠️ Important Notes for 2025 ⚠️
-- This code base is from 2021 and may require updates for current library versions
-- LINE Notify service used in this project is being discontinued
-- API keys and credentials in code samples are non-functional examples
-- If implementing a similar system today, consider modern alternatives for notifications
+> [!IMPORTANT]
+> - This code base is from 2021 and may require updates for current library versions
+> - LINE Notify service used in this project is being discontinued
+> - API keys and credentials in code samples are non-functional examples
+> - If implementing a similar system today, consider modern alternatives for notifications
 
 ## Features
 - Contactless temperature measurement using MLX90614 IR sensor
@@ -47,17 +47,30 @@ This project was originally developed in November 2021 as a school project at *T
 
 ## Screenshots
 
-![Web Interface](https://raw.githubusercontent.com/npwitk/Arduino-Temperature-RFID-Monitoring-System/refs/heads/main/Images/web-interface.png)
 
-Web dashboard showing real-time temperature logs
+<div align="center">
+   Web dashboard showing real-time temperature logs
+   <div align="center">
+<img src="https://raw.githubusercontent.com/npwitk/Arduino-Temperature-RFID-Monitoring-System/refs/heads/main/Images/web-interface.png" width="600" alt="Web Interface"/>
+</div>
+</div>
 
-![Firebase Database](https://raw.githubusercontent.com/npwitk/Arduino-Temperature-RFID-Monitoring-System/refs/heads/main/Images/firebase-json.png)
 
-Firebase JSON structure for data storage
 
-![LINE Notifications](https://raw.githubusercontent.com/npwitk/Arduino-Temperature-RFID-Monitoring-System/refs/heads/main/Images/line-notification.png)
+<div align="center">
+   Firebase JSON structure for data storage
+   <div align="center">
+<img src="https://raw.githubusercontent.com/npwitk/Arduino-Temperature-RFID-Monitoring-System/refs/heads/main/Images/firebase-json.png" width="600" alt="Firebase Database"/>
+</div>
+</div>
 
-Temperature alert notifications via LINE
+
+<div align="center">
+   Temperature alert notifications via LINE
+   <div align="center">
+<img src="https://raw.githubusercontent.com/npwitk/Arduino-Temperature-RFID-Monitoring-System/refs/heads/main/Images/line-notification.png" width="400" alt="LINE Notifications"/>
+</div>
+</div>
 
 ## Setup Requirements
 1. Arduino IDE
